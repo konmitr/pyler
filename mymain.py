@@ -34,7 +34,7 @@ def main(argv):
     #   timeout (in milliseconds)
     '''
     cap = pcapy.open_live(dev , 65536 , 1 , 0)
- 
+    #added comment 
     #start sniffing packets
     while(1) :
         (header, packet) = cap.next()
